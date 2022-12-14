@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Michael's DS1 Website</title>
+  <style>
+    body {
+      padding-top: 1em;
+      padding-left: 5em;
+      padding-right: 1em;
+      padding-bottom: 1em;
+    }
+
+    p {
+      font-size: 20px;
+    }
+
+    #wrapper {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    #content {
+      grid-column: 1;
+    }
+
+    #images {
+      grid-column: 3;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="wrapper">
+    <div id="content">
+      <h1>Data Science 1</h1>
+      <p>Project 1</p>
+
+      <p>
+        <b>Why We Care: </b> 
+        <br>
+        <br>
+        We can see from the data collected, which measures followers, total
+        likes, average likes, posts, and an "influence score", that as your followers, posts, and likes increase, your
+        influence increases as well.
+      <p>All of these elements listed have a direct linear relationship with the influence
+        score.
+        As
+        your followers, posts, and likes increase, your influence on others increases. This can matter a lot in terms of
+        marketing; for example, it can make companies lots of money through advertising.
+      </p>
+
+      <p>
+        <b> We are trying to answer these following questions with the given data: </b>
+        <br>
+        <br>
+        -Is there a positive, statistically significant correlation between the number of 
+        followers an influencer has and their influence score?
+        <br>
+        <br>
+        -Is there a positive, statistically significant correlation between the average likes an 
+         influencer has on a post and their influence score?
+        <br>
+        <br>
+        -Is there a positive, statistically significant correlation between the total number of 
+        likes an influencer has and their influence score?
+        <br>
+        <br>
+        -Is there a positive, statistically significant correlation between the number of posts            an influencer has made and their influence score?
+
+      </p>
+      <p>
+        <b>Approach to Answering: </b>
+        <br>
+        <br>
+        I answered these questions by looking at specific columns of data within the dataset, cleaning them, and visualizing them. I converted the units K, M, and B to their respective conversions. I got rid of all columns except the influence score, number of followers, average likes, number of posts, and the total number of likes.
+        </p>
+        <p>
+        <b>Our Findings: </b>
+        <br>
+        <br>
+        With the data I collected, I found that when comparing the number of followers, average number of likes, total likes, and number of posts, to a celebrity's influence score.
+        <br>
+        Although all the comparisons cause a direct linear incline, the number of followers that a celebrity has causes the largest increase on their influence score.
+      </p>
+      <p>
+      <b>Interpretation of Findings and Threats to Validity: </b>
+      <br>
+      <br>
+      From these findings, we can see that the answers to all of our questions is yes. None of these findings show a descrease in influence score; All of them show a direct linear increase in X to influence score. A threat to validity of this could be that it is not updated daily to include the growing numbers of likes, posts, and followers that a celebrity might have.
+      </p>
+
+    </div>
+
+    <div id="images">
+      <img align="right" src="graph1.PNG" width=750 height=600>
+      <img align="right" src="graph2.PNG" width=750 height=600>
+      <img align="right" src="graph3.PNG" width=750 height=600>
+      <img align="right" src="graph4.PNG" width=750 height=600>
+    </div>
+  </div>
+</body>
+
+</html>
